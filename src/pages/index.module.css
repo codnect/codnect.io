@@ -1,0 +1,67 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 6rem 0 3rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #26292d;
+}
+
+.teamMembers {
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #383f48;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 0 1.5rem 0;
+  }
+  .tagLine {
+    min-height: 200px;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagLine {
+  color: white;
+  font-weight: bold;
+  font-size: 48px;
+  min-height: 150px;
+}
+
+.tagLine b {
+  color: #0ea786;
+}
+
+.transitionText {
+  display: inline !important;
+}
+
+a div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.teamMemberText {
+  color: white !important;
+  text-decoration: none;
+}
+
+a:hover.teamMemberText {
+  color: var(--ifm-navbar-link-hover-color) !important;
+  text-decoration: none;
+}
+

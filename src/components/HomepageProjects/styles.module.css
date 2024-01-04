@@ -1,0 +1,21 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+a.projectText {
+  color: var(--ifm-color-content) !important;
+  text-decoration: none;
+}
+
+a:hover.projectText {
+  color: var(--ifm-navbar-link-hover-color) !important;
+  text-decoration: none;
+}
